@@ -1,0 +1,42 @@
+nav.primary-menu{
+    width: 90%;
+    margin: auto;
+    border: solid 5px darkblue;
+    align-items: center;
+    display: flex;
+    background-color: #6495ed;
+     justify-content: center;
+    
+  }
+
+  .primary-menu h2{
+      font-size: 30px;
+  }
+
+  .primary-menu ul{
+
+    margin: 0px; 
+    padding: 0px;
+    display: flex;
+    align-items: left;
+   
+    text-align: center;
+  }
+
+  .primary-menu li{
+    list-style-type: none;
+  }
+
+  .primary-menu a{
+    color: #000;
+    text-decoration: none;
+    display: block; 
+    width: 100px;
+    padding: 8px 0px;
+  }
+
+  .primary-menu a:hover{
+  background-color: darkblue;
+  color: #fff;
+  text-decoration: overline underline;
+  }
